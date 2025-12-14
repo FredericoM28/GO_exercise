@@ -1,0 +1,35 @@
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Printf("Digite o dividendo: ")
+	var dividendo float64
+	fmt.Scanf("%f", &dividendo)
+
+	fmt.Printf("Digite o divisor: ")
+	var divisor float64
+	fmt.Scanf("%f", &divisor)
+
+	fmt.printf("Digite a opcao desejada: ")
+	fmt.printf("1 - Soma")
+	fmt.printf("2 - Subtracao")
+	fmt.printf("3 - multiplicacao")
+	fmt.printf("4 - Divisao")
+	var opcao string
+	fmt.Scanf("%s", &opcao)
+
+	var resultado float64
+	resultadofoicalculado
+
+	if opcao == "1"{
+		resultado = numero1 + numero2
+	
+	} else if opcao == "2" {
+		resultado = numero1 - numero2
+	} else if opcao == "3" {
+		resultado = numero1 * numero2
+	} else if opcao ==  "4" {
+		resultado = numero1 / numero2
+	}
+}
